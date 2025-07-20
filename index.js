@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 // ✅ Enhanced CORS config for proper cookie handling
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: ["http://localhost:5173", "https://cms-newsnow.netlify.app"],
     credentials: true,
 }));
 
